@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Gallery</title>
+    <style>
+        body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.video-item {
+    background: rgb(235, 231, 231);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 320px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.video-item video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.video-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+    </style>
+</head>
+<body>
+    <div class="video-gallery">
+        <div class="video-item">
+            <video controls>
+                <source src="Beginner's Guide To The Gym - No Sweat_ EP8.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Video Title 1</p>
+        </div>
+        <div class="video-item">
+            <video controls>
+                <source src="Leg Press + Seated Leg Press _ HOW TO USE + FORM.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Video Title 2</p>
+        </div>
+        <div class="video-item">
+            <video controls>
+                <source src="videoplayback (1).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Video Title 3</p>
+        </div>
+    
+    </div>
+</body>
+</html>
+
